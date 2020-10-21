@@ -277,62 +277,6 @@
     }
 
 }
-/* @media (max-width: 1200px) {
-  .footer-contact-info-title {
-    margin: 0px 0 10px;
-  }
-  .block-steps-item-arrow-right {
-    margin-right: 90px;
-  }
-  .block-arrow.block-arrow-right {
-    right: -85px;
-  }
-  .block-steps-item-arrow-left {
-    margin-left: 90px;
-  }
-  .block-arrow {
-    width: 80px;
-    padding: 2px;
-  } 
-  .block-arrow.block-arrow-left {
-    left: -85px;
-  }
-
-  .footer-nav-item {
-    padding: 10px;
-  }
-  .footer-nav-item:hover:before {
-    width: calc(100% - 20px);
-  }
-  .wrap-pills-content {
-    flex-wrap: wrap;
-  }
-  .pills-left-part,
-  .pills-right-part {
-    width: 100%;
-  }
-  .pills-left-part {
-    order: 2;
-  }
-  .web-development-img img {
-    max-width: 100%;
-    margin: 0 auto 40px;
-  }
-  .pills-left-part-item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-  .xloo-features-content-title {
-    font-size: 21px;
-    margin-bottom: 5px;
-}
-.why-choose-us-item-title {
-  margin-bottom: 5px;
-}
-.why-choose-us-item-title h3 {
-  font-size: 21px;
-}
-
- } */
 @media (max-width: 1200px) {
     .owl-xloo-container {
         max-width: 1200px;
@@ -819,7 +763,6 @@
    }
 
 }
-
 @media (max-width: 990px) {
     .feature-item-img img {
         max-width: 100%;
@@ -849,7 +792,6 @@
         margin-bottom: 30px;
     }
 }
-
 @media (max-width: 768px) {
     .img-result-container,
     .img-solution-container {
@@ -1037,7 +979,6 @@
     }
     /* Our Company Style END*/
 }
-
 @media (max-width: 576px) {
     .case-items-container {
         align-items: center;

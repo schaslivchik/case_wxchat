@@ -29,6 +29,7 @@
 }
 .service-img, .service-img img {
   height: 100%;
+  max-width: 100%;
 }
 .section-carousel-service {
  margin-bottom: 140px;
@@ -77,4 +78,40 @@
   width: 28px;
   top: 0;
   bottom: 0;
+}
+.service-content-text p {
+  margin-bottom: 30px;
+}
+
+
+/* media */
+@media (max-width: 1200px) {
+  .container-service {
+    padding: 60px 30px;
+  }
+  .container-service--grey .service-content {
+    padding-left: 0;
+  }
+  .service-content {
+  margin-top: 40px;
+  }
+  .services-title-content br{
+  display: none;
+  }
+  .services-title-content {
+  margin-bottom: 20px;
+  }
+
+}
+@media (max-width: 991px) {
+  .container-contract-first-item {
+    margin-bottom: 25px;
+  }
+  .types-cta-text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .contract-fixed-price::before {
+    display: none;
+  }
 }
