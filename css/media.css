@@ -1,222 +1,281 @@
 @media (max-width: 1600px) {
-  .xloo-block-cta .block-middle {
-    margin: -18px 0 25px;
+    .item-case-block {
+        width: 280px;
+    }
+    .item-case-block-text {
+        font-size: 16px;
+    }
+
+    .xloo-block-cta .block-middle {
+        margin: -18px 0 25px;
+    }
+    .xloo-features-blocks {
+        margin: 0 0 2px;
+    }
+    .block-description-xloo {
+        font-size: 42px;
+    }
+    .block-why-choose-us {
+        margin-top: -6px;
+    }
+    .why-choose-us-item-title img {
+        height: 44px;
+    }
+    .software-development .block-middle {
+        margin: 34px 0 18px;
+    }
+    .software-development .block-top {
+        margin-top: 6px;
+    }
+    .xloo-how-we-do .block-bottom {
+        margin-top: 0;
+    }
+    .block-steps {
+        padding: 0;
+    }
+    .xloo-how-we-do .block-middle {
+        margin: 41px 0 26px;
+    }
+    .why-choose-us .block-middle {
+        margin: 37px 0 9px;
+    }
+    .xloo-features-content-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .xloo-features-item:first-child,
+    .xloo-features-item:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .block-middle {
+        margin: 35px 0;
+    }
+    .xloo-secondary-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .xloo-block {
+        padding: 40px 0;
+    }
+    .xloo-our-works .block-middle {
+        margin: 35px 0 0 0;
+        padding: 0;
+    }
+    .owl-theme .owl-nav [class*="owl-"] {
+        margin: 0 5px;
+    }
+    .owl-carousel.owl-loaded {
+        margin-bottom: 0;
+    }
+    .xloo-our-works .block-top {
+        margin-top: 0px;
+    }
+    .item-case-block-img {
+        height: 360px;
+    }
+    .xloo-secondary-text {
+        margin-bottom: 0px;
+        letter-spacing: 0.3px;
+    }
+    .block-steps-item-arrow-down {
+        margin-bottom: 40px;
+    }
+    .block-steps-item {
+        height: 140px;
+    }
+    .block-steps-text {
+        font-size: 14px;
+    }
+    .block-arrow.block-arrow-down {
+        bottom: -90px;
+        width: 20px;
+    }
+    .block-arrow.block-arrow-down:before {
+        right: -8px;
+        top: 63px;
+    }
+    .title-trusted-block {
+        margin: 12px 2px 30px;
+    }
+    .xloo-title-block {
+        font-size: 28px;
+        line-height: 20px;
+    }
+    .footer-contact-info-link {
+        font-size: 16px;
+    }
+    .phone-item p,
+    .footer-xloo-email p {
+        font-size: 16px;
+    }
+    .footer-contact-info-title {
+        font-size: 24px;
+    }
+    .btn-xloo-social {
+        height: 36px;
+        width: 36px;
+    }
+    .software-development-title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .section-cta:before {
+        background-size: 50%;
+    }
+    .why-choose-us-item-title h3 {
+        margin-left: 20px;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .block-steps-bottom-part {
+        margin-bottom: 0;
+    }
+    .cta-footer-main-page {
+        padding: 0;
+    }
+    .block-icon-development-item > p {
+        margin: 20px 0 0 0;
+    }
+    .why-choose-us .xloo-block {
+        padding: 45px 0;
+    }
+    .why-choose-us-item {
+        margin-bottom: 25px;
+    }
+    .pills-left-part-item-content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pills-left-part-item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+    .nav-pills .xloo-nav-link {
+        font-size: 16px;
+        min-height: 40px;
+    }
+    .web-development-img img {
+        height: 260px;
+    }
+    .pills-left-part {
+        width: 50%;
+    }
+    .pills-left-part-item img {
+        height: 60px;
+    }
+    .why-choose-us-item-title {
+        margin-bottom: 11px;
+        min-height: 64px;
+    }
+    .cta-content-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .cta-content-subtitle {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .xloo-block-secondary {
+        padding: 80px 0;
+    }
+    .cta-block-get-in-touch:before {
+        top: -48px;
+    }
+    /*works page*/
+    .case-container {
+        padding: 30px 0;
+    }
+    .case-block-img .img-case-xl {
+        display: none;
+    }
+    .case-block-img .img-case-lg {
+        display: block;
+    }
+    /* end works page*/
+
+    /*CASE PAGES*/
+    .feature-item-title {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
 }
-.xloo-features-blocks {
-  margin: 0 0 2px;
-}
-.block-description-xloo {
-  font-size: 42px;
-}
-.block-why-choose-us {
-  margin-top: -6px;
-}
-.why-choose-us-item-title img {
-  height: 44px;
-}
-.software-development .block-middle {
-  margin: 34px 0 18px;
-}
-.software-development .block-top {
-  margin-top: 6px;
-}
-.xloo-how-we-do .block-bottom {
-  margin-top: 0;
-}
-.block-steps {
-  padding: 0;
-}
-.xloo-how-we-do .block-middle {
-  margin: 41px 0 26px;
-}
-.why-choose-us .block-middle {
-  margin: 37px 0 9px;
-}
-.xloo-features-content-title {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-.xloo-features-item:first-child, .xloo-features-item:nth-child(2) {
-margin-bottom: 30px;
-}
-.block-middle {
-  margin: 35px 0;
-}
-.xloo-secondary-text {
-  font-size: 14px;
-  line-height: 24px;
-}
-.xloo-block {
-  padding: 40px 0;
-}
-.xloo-our-works .block-middle {
-  margin: 41px 0 19px;
-  padding: 0;
-}
-.xloo-secondary-text {
-  margin-bottom: 0px;
-  letter-spacing: 0.3px;
-}
-.block-steps-item-arrow-down {
-  margin-bottom: 40px;
-}
-.block-steps-item {
-  height: 140px;
-}
-.block-steps-text {
-  font-size: 14px;
-}
-.block-arrow.block-arrow-down {
-  bottom: -90px;
-  width: 20px;
-}
-.block-arrow.block-arrow-down:before {
-  right: -8px;
-  top: 63px;
-}
-.title-trusted-block {
-    margin: 12px 2px 30px;
-}
-.xloo-title-block {
-  font-size: 28px;
-  line-height: 20px;
-}
-/* .owl-carousel .owl-item img {
-  height: 100px;
-} */
-.owl-carousel.owl-loaded {
-  margin-bottom: 10px;
-}
-.footer-contact-info-link {
-  font-size: 16px;
-}
-.phone-item p, .footer-xloo-email p {
-  font-size: 16px;
-}
-.footer-contact-info-title {
-  font-size: 24px;
-}
-.btn-xloo-social {
-  height: 36px;
-  width: 36px;
-}
-.software-development-title {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-.section-cta:before {
-  background-size: 50%;
-}
-.why-choose-us-item-title h3 {
-  margin-left: 20px;
-  font-size: 24px;
-  margin-bottom: 0;
-}
-.block-steps-bottom-part {
-  margin-bottom: 0;
-}
-.xloo-carousel {
-  padding: 0;
-} 
-.block-icon-development-item > p {
-  margin: 20px 0 0 0;
-}
-.why-choose-us .xloo-block {
-  padding: 45px 0;
-}
-.why-choose-us-item {
-  margin-bottom: 25px;
-}
-.pills-left-part-item-content {
-  font-size: 14px;
-  line-height: 24px;
-}
-.pills-left-part-item:not(:last-child) {
-  margin-bottom: 25px;
-}
-.nav-pills .xloo-nav-link {
-  font-size: 16px;
-  min-height: 40px;
-}
-.web-development-img img {
-  height: 260px;
-}
-.pills-left-part {
-  width: 50%;
-}
-.pills-left-part-item img{
-  height: 60px;
-}
-.why-choose-us-item-title {
-  margin-bottom: 11px;
-  min-height: 64px;
-}
-}
-@media(max-width: 1440px) {
-  .xloo-features-content-title,
-  .why-choose-us-item-title h3 {
-    font-size: 21px;
-  }
-  .why-choose-us-item-title {
-    min-height: 50px;
-  }
-  .why-choose-us .xloo-block {
-    padding: 0;
-}
-.xloo-what-we-do .block-middle{
-  margin: 36px 0;
-}
-.software-development .block-top {
-  margin-top: 7px;
-}
-.why-choose-us .block-middle {
-  margin: 42px 0 10px;
-}
-.xloo-our-works .block-middle {
-  margin: 41px 0 15px;
-}
-.nav-xloo-tab {
-  margin-bottom: 10px;
-}
-.footer-xloo-social-list {
-  margin: 12px 0 0 1px;
-}
-  .pills-left-part-item-content {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  .pills-left-part-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  .xloo-block {
-    padding: 0;
-}
-.xloo-secondary-text {
-  line-height: 21px;
-}
-  .nav-pills .xloo-nav-link {
-    font-size: 16px;
-    min-height: 40px;
-  }
-  .web-development-img img {
-    height: 260px;
-  }
-  .pills-left-part {
-    width: 50%;
-  }
-  .pills-left-part-item img{
-    height: 60px;
-  }
-  .xloo-carousel {
-    min-height: calc(50vh - 96px);
-    height: auto;
-    padding: 30px 0;
-  }
-  .container-footer {
-    min-height: 50vh;
-    height: auto;
-  }
-  
+@media (max-width: 1440px) {
+    .xloo-features-content-title,
+    .why-choose-us-item-title h3 {
+        font-size: 21px;
+    }
+    .why-choose-us-item-title {
+        min-height: 50px;
+    }
+    .why-choose-us .xloo-block {
+        padding: 0;
+    }
+    .xloo-what-we-do .block-middle {
+        margin: 36px 0;
+    }
+    .software-development .block-top {
+        margin-top: 7px;
+    }
+    .why-choose-us .block-middle {
+        margin: 42px 0 10px;
+    }
+    .xloo-our-works .block-middle {
+        margin: 41px 0 15px;
+    }
+    .nav-xloo-tab {
+        margin-bottom: 10px;
+    }
+    .footer-xloo-social-list {
+        margin: 12px 0 0 1px;
+    }
+    .pills-left-part-item-content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pills-left-part-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .xloo-block {
+        padding: 0;
+    }
+    .xloo-secondary-text {
+        line-height: 21px;
+    }
+    .nav-pills .xloo-nav-link {
+        font-size: 16px;
+        min-height: 40px;
+    }
+    .web-development-img img {
+        height: 260px;
+    }
+    .pills-left-part {
+        width: 50%;
+    }
+    .pills-left-part-item img {
+        height: 60px;
+    }
+    .cta-footer-main-page {
+        min-height: calc(50vh - 96px);
+        height: auto;
+        padding: 30px 0;
+    }
+    .container-footer {
+        min-height: 50vh;
+        height: auto;
+    }
+    /* Our Company Page*/
+    .xloo-block-secondary .xloo-secondary-text {
+        line-height: 24px;
+    }
+    .xloo-block-secondary {
+        overflow: hidden;
+    }
+    /*case pages*/
+    .secondary-txt {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
 }
 /* @media (max-width: 1200px) {
   .footer-contact-info-title {
@@ -275,444 +334,905 @@ margin-bottom: 30px;
 
  } */
 @media (max-width: 1200px) {
-  .xloo-features-img {
-    height: 50px;
-  }
-  .xloo-secondary-text {
-    font-size: 13px;
-  }
-  .xloo-features-content {
-    margin-left: 10px;
-  }
-  .software-development-subtitle {
-    font-size: 13px;
-    line-height: 21px;
-    max-width: 660px;
-  }
-  .btn {
-    font-size: 16px;
-  }
-  .xloo-title-block {
-    font-size: 24px;
-    line-height: 18px;
-  }
-  .nav-xloo-link-btn,
-  .nav-xloo-link {
-    font-size: 14px;
-  }
-  #fp-nav.fp-right {
-    right: 2px;
-  }
-  .btn-xloo-block-chevron img {
-    height: 9px;
-  }
-  .block-steps-item-arrow-right {
-    margin-right: 90px;
-  }
-  .block-steps-item-arrow-left {
-    margin-left: 90px;
-  }
-  .block-arrow.block-arrow-right {
-    right: -80px;
-  }
-  .block-arrow {
-    width: 71px
-  }
-  .block-arrow.block-arrow-left {
-    left: -80px;
-  }
-  .pills-left-part-item-content {
-    font-size: 13px;
-    line-height: 21px;
-  }
+    .owl-xloo-container {
+        max-width: 1200px;
+    }
+
+    .xloo-features-img {
+        height: 50px;
+    }
+    .xloo-secondary-text {
+        font-size: 13px;
+    }
+    .xloo-features-content {
+        margin-left: 10px;
+    }
+    .software-development-subtitle {
+        font-size: 13px;
+        line-height: 21px;
+        max-width: 660px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .xloo-title-block {
+        font-size: 24px;
+        line-height: 18px;
+    }
+    .nav-xloo-link-btn,
+    .nav-xloo-link {
+        font-size: 14px;
+    }
+    #fp-nav.fp-right {
+        right: 2px;
+    }
+    .btn-xloo-block-chevron img {
+        height: 9px;
+    }
+    .block-steps-item-arrow-right {
+        margin-right: 90px;
+    }
+    .block-steps-item-arrow-left {
+        margin-left: 90px;
+    }
+    .block-arrow.block-arrow-right {
+        right: -80px;
+    }
+    .block-arrow {
+        width: 71px;
+    }
+    .block-arrow.block-arrow-left {
+        left: -80px;
+    }
+    .pills-left-part-item-content {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    /* Our Company Style */
+    .xloo-title-dark-text {
+        font-size: 28px;
+    }
+    .img-70plus-block img {
+        width: 280px;
+    }
+    .our-company-team {
+        margin-bottom: 16px;
+    }
+    .our-company-team:before {
+        width: 532px;
+    }
+    .xloo-title-block-secondary {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .map-block {
+        height: 350px;
+    }
+    .map-block:before {
+        transform: scale(0.7);
+        left: -140px;
+        top: -60px;
+    }
+    .map-item-canada {
+        top: 102px;
+        left: 62px;
+    }
+    .map-item-usa {
+        top: 155px;
+        left: 98px;
+    }
+    .map-item-europe {
+        top: 123px;
+        left: 291px;
+    }
+    .map-item-sa {
+        top: 247px;
+        left: 283px;
+    }
+    .map-item-asia {
+        left: 425px;
+        bottom: 76px;
+    }
+    .xloo-in-numbers-item {
+        width: 280px;
+    }
+    .title-xloo-in-numbers img {
+        width: 200px;
+    }
+    .title-xloo-in-numbers:before {
+        height: 100%;
+    }
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(4),
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(5),
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(6) {
+        margin: 33px 0 15px;
+    }
+    .xloo-block-secondary .xloo-secondary-text,
+    .card-body,
+    .xloo-secondary-text-dark,
+    #xloo-timeline .wpostahs-centent p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .block-item {
+        height: 390px;
+        padding: 28px 30px 20px;
+    }
+    .block-item .xloo-secondary-text {
+        margin: 25px 0 18px;
+    }
+    .wpostahs-slider-design-2 .wpostahs-slick-slider .slick-arrow {
+        top: -350% !important;
+    }
+    /* Our Company Style End */
+
 }
 @media (max-width: 991px) {
-  .fp-tableCell {
-    height: auto !important;
-  }
-  .section {
-    padding-top: 0 !important;
-    height: inherit !important;
-  }
-  .xloo-block-cta.xloo-block{
-    height: calc(100vh - 96px);
-    margin-top: 96px;
-    padding: 0;
+    #fullpage,
+    .secondary-pages {
+        overflow: hidden;
+    }
+    .xloo-modal .body {
+        overflow-y: scroll;
+    }
+    .active-menu .nav-xloo-link-btn {
+        width: 155px;
+        margin: 20px auto 0;
+    }
+    .navbar-nav.nav-xloo1 {
+        flex-direction: column;
+    }
+    .fp-tableCell {
+        height: auto !important;
+    }
+    .section {
+        padding-top: 0 !important;
+        height: inherit !important;
+    }
+    .xloo-block-cta.xloo-block {
+        height: calc(100vh - 96px);
+        margin-top: 96px;
+        padding: 0;
+    }
+    .xloo-what-we-do .xloo-block {
+        padding: 0 0 60px;
+    }
+    .why-choose-us {
+        padding: 0 0 60px;
+    }
+    #fp-nav.fp-right {
+        right: -6px;
+    }
+    .main-menu-trigger {
+        display: flex;
+    }
+    .nav-xloo {
+        display: none;
+    }
+    .nav-xloo-link {
+        margin-bottom: 2vh;
+        font-size: 21px;
+    }
+    .xloo-features-blocks {
+        flex-wrap: wrap;
+    }
+    .xloo-features-item {
+        width: 100%;
+    }
+    .xloo-features-item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .block-icon-development {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-icon-development-item {
+        width: 24%;
+        margin: 15px 30px;
+    }
+    .footer-cta {
+        text-align: center;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-nav {
+        justify-content: center;
+        margin: 60px 0;
+    }
+    .footer-contact-info {
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+    .footer-cta-hire-us-text {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .footer-cta-hire-us {
+        margin-bottom: 30px;
+    }
+    .cta-footer-main-page {
+        padding: 40px 0;
+    }
+    .why-choose-us-item {
+        width: 48%;
+    }
+    .block-steps-item-arrow-right {
+        margin-right: 65px;
+    }
+    .block-steps-item {
+        width: 120px;
+    }
+    .block-steps-text {
+        font-size: 12px;
+    }
+    .block-steps-item-arrow-left {
+        margin-left: 70px;
+    }
+    .block-arrow.block-arrow-right {
+        right: -60px;
+    }
+    .block-arrow {
+        width: 57px;
+    }
+    .block-arrow.block-arrow-left {
+        left: -63px;
+    }
+    .block-steps-text {
+        padding: 0 10px 10px;
+    }
+    .why-choose-us-item:nth-child(7),
+    .why-choose-us-item:nth-child(8) {
+        margin-bottom: 40px;
+    }
+    .nav-pills .xloo-nav-link {
+        font-size: 14px;
+    }
+    .block-description-xloo {
+        font-size: 32px;
+    }
+    .xloo-block {
+        margin-top: 0;
+        padding: 60px 0;
+    }
+    .nav-xloo-link-btn {
+        margin: 20px 0 0 0;
+    }
+    .block-steps-item-arrow-down {
+        margin-bottom: 60px;
+    }
+    .block-arrow.block-arrow-down {
+        bottom: -100px;
+        width: 50px;
+    }
+    .active-menu .nav-xloo-link-btn,
+    .active-menu .nav-xloo-link {
+        font-size: 16px;
+    }
+    .cta-footer-main-page {
+        min-height: calc(35vh - 96px);
+        height: auto;
+        padding: 60px 0;
+        margin-bottom: 10px;
+    }
+    .container-footer {
+        min-height: 65vh;
+        padding: 65px 0 0;
+        height: auto;
+    }
+    .owl-carousel.owl-loaded {
+        margin-bottom: 0;
+    }
+    .xloo-block {
+        min-height: auto;
+    }
+    .software-development-title {
+        font-size: 24px;
+    }
+    .xloo-how-we-do .block-top {
+        margin-top: 12px;
+    }
+    .xloo-our-works .block-top {
+        margin-top: 12px;
+    }
+    .footer-contact-info-title {
+        font-size: 21px;
+    }
+    .wrap-pills-content {
+        flex-wrap: wrap;
+    }
+    .pills-left-part,
+    .pills-right-part {
+        width: 100%;
+    }
+    .pills-right-part {
+        margin-bottom: 30px;
+    }
+    .pills-left-part {
+        order: 1;
+    }
+    .why-choose-us-item:nth-child(5),
+    .why-choose-us-item:nth-child(4) {
+        margin-bottom: 24px;
+    }
+    .nav-xloo-link:not(:last-child):before {
+        bottom: 8px;
+    }
+    /* Our Company Style */
+    .img-70plus-block {
+        display: none;
+    }
+    .expertise-expert-block {
+        margin-bottom: 30px;
+    }
+    .our-company-team:before {
+        width: 612px;
+    }
+    .our-company-team {
+        margin-bottom: 20px;
+    }
+    .common-mission-block {
+        position: relative;
+        background-color: #f4f5f8;
+        height: inherit;
+        padding: 30px 0;
+        margin-bottom: 80px;
+    }
+
+    .common-mission-block:before {
+        content: "";
+        position: absolute;
+        width: 780px;
+        height: calc(100% + 60px);
+        background-color: #f4f5f8;
+        z-index: -1;
+        top: 0;
+        left: -45px;
+        bottom: 0;
+        margin: auto;
+    }
+    .common-mission-block::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 175px;
+        background-image: url(/wp-content/themes/xloo/images/our-company/);
+        z-index: 2;
+        top: -34px;
+        right: -46px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .title-common-mission {
+        margin-bottom: 15px;
+    }
+    .cta-content-title {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .cta-content-subtitle {
+        font-size: 24px;
+    }
+    .work-and-share-block .xloo-title-dark-text br {
+        display: none;
+    }
+    .map-block:before {
+        left: -95px;
+    }
+    .map-item-usa {
+        left: 143px;
+    }
+    .map-item-canada {
+        left: 107px;
+    }
+    .map-item-europe {
+        left: 336px;
+    }
+    .map-item-sa {
+        left: 328px;
+    }
+    .map-item-asia {
+        left: 480px;
+    }
+    .wrap-blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-item {
+        width: 360px;
+        height: inherit;
+    }
+    .block-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .cta-content-believe:before {
+        right: -160px;
+        bottom: -80px;
+        transform: scale(0.8);
+    }
+    .block-item p {
+        margin: 30px 0 20px;
+    }
+    .wrap-blocks:before {
+        right: 110px;
+    }
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(4) {
+        order: -2;
+        width: 100%;
+        margin: 0;
+    }
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(4),
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(5),
+    .xloo-in-numbers .xloo-in-numbers-item:nth-child(6) {
+        margin: inherit;
+    }
+    .title-xloo-in-numbers:before {
+        display: none;
+    }
+    .xloo-in-numbers .xloo-in-numbers-item {
+        margin: 25px 0;
+    }
+    .xloo-in-numbers-item {
+        width: 300px;
+    }
+    .cta-block-get-in-touch:before {
+        left: -178px;
+    }
+    .footer-contact-info {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-contact-services,
+    .footer-contact-info-phone,
+    .footer-contact-info-social,
+    .footer-xloo-social {
+        text-align: left;
+    }
+    .footer-xloo-social {
+        width: 100%;
+    }
+    /* Our Company Style END*/
+
+    /* Works Page */
+
+    .case-block {
+        flex-wrap: wrap;
+    }
+    .case-block-img {
+        width: 100%;
+        order: 1;
+        margin-bottom: 60px;
+    }
+    .case-block-text {
+        width: 100%;
+        order: 2;
+    }
+    .case-container {
+        padding: 80px 0;
+    }
+    .feature-item-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 15px;
+   }
+
 }
-.xloo-what-we-do .xloo-block {
-  padding: 0 0 60px;
+
+@media (max-width: 990px) {
+    .feature-item-img img {
+        max-width: 100%;
+    }
+    .background-container:before {
+        display: none;
+    }
+    .feature-item-title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .feature-item-title br {
+        display: none;
+    }
+    .features-row:not(:last-child) {
+        margin-bottom: 80px;
+    }
+    .feature-item-img {
+        display: flex;
+        justify-content: center;
+    }
+    .case-items-container {
+        flex-wrap: wrap;
+    }
+    .case-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
 }
-.why-choose-us {
-  padding: 0 0 60px;
-}
-  #fp-nav.fp-right {
-    right: -6px;
-}
-  .main-menu-trigger {
-    display: flex;
-  }
-  .nav-xloo {
-    display: none;
-  }
-  .nav-xloo-link {
-    margin-bottom: 2vh;
-    font-size: 21px;
-  }
-  .xloo-features-blocks {
-    flex-wrap: wrap;
-  }
-  .xloo-features-item {
-    width: 100%;
-  }
-  .xloo-features-item:not(:last-child) {
-     margin-bottom: 40px;
-  }
-  .block-icon-development {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .block-icon-development-item {
-    width: 24%;
-    margin: 15px 30px;
-  }
-  .footer-cta {
-    text-align: center;
-  }
-  .footer-logo {
-    text-align: center;
-  }
-  .footer-nav {
-    justify-content: center;
-    margin: 60px 0;
-  }
-  .footer-contact-info {
-    justify-content: space-around;
-    margin-bottom: 60px;
-  }
-  .footer-cta-hire-us-text {
-    font-size: 21px;
-    margin-bottom: 20px;
-  }
-  .footer-cta-hire-us {
-    margin-bottom: 30px;
-  }
-  .xloo-carousel {
-    padding: 40px 0;
-}
-  .why-choose-us-item {
-    width: 48%;
-  }
-  .block-steps-item-arrow-right {
-    margin-right: 65px;
-  }
-  .block-steps-item {
-    width: 120px;
-  }
-  .block-steps-text {
-    font-size: 12px;
-  }
-  .block-steps-item-arrow-left {
-    margin-left: 70px;
-  }
-  .block-arrow.block-arrow-right {
-    right: -60px;
-  }
-  .block-arrow {
-    width: 57px;
-  }
-  .block-arrow.block-arrow-left {
-    left: -63px;
-  }
-  .block-steps-text {
-    padding: 0 10px 10px;
-  }
-  .why-choose-us-item:nth-child(7), .why-choose-us-item:nth-child(8) {
-    margin-bottom: 40px;
- }
- .nav-pills .xloo-nav-link {
-   font-size: 14px;
- }
- .block-description-xloo {
-  font-size: 32px;
-}
-.xloo-block {
-  margin-top: 0;
-  padding: 60px 0;
-}
-.nav-xloo-link-btn {
-  margin: 20px 0 0 0;
-}
-.block-steps-item-arrow-down {
-  margin-bottom: 60px;
-}
-.block-arrow.block-arrow-down {
-  bottom: -100px;
-  width: 50px;
-}
-.active-menu .nav-xloo-link-btn, .active-menu .nav-xloo-link {
-  font-size: 16px;
-}
-.xloo-carousel {
-  min-height: calc(35vh - 96px);
-  height: auto;
-  padding: 60px 0;
-  margin-bottom: 10px;
-}
-.container-footer {
-  min-height: 65vh;
-  padding: 65px 0 0;
-  height: auto;
-}
-.owl-carousel.owl-loaded {
-  margin-bottom: 0;
-}
-.xloo-block {
-  min-height: auto;
-}
-.software-development-title {
-  font-size: 24px;
-}
-.xloo-how-we-do .block-top {
-  margin-top: 12px;
-}
-.xloo-our-works .block-top {
-  margin-top: 12px;
-}
-.footer-contact-info-title {
-  font-size: 21px;
-}
-.wrap-pills-content {
-  flex-wrap: wrap;
-}
-.pills-left-part,
-.pills-right-part {
-  width: 100%;
-}
-.pills-right-part {
-  margin-bottom: 30px;
-}
-.pills-left-part {
-  order: 1;
-}
-.why-choose-us-item:nth-child(5), .why-choose-us-item:nth-child(4) {
-  margin-bottom: 24px;
-}
- }
 
 @media (max-width: 768px) {
-  .xloo-block-cta.xloo-block {
-    padding: 0;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-    height: auto;
-}
-  .block-arrow.block-arrow-left {
-    display: none;
-  }
-  .block-description-xloo {
-    font-size: 28px;
-    line-height: 48px;
-  }
-  .nav-xloo-link-btn {
-    font-size: 21px;
-  }
-  .section-cta:before {
-    background: url(../images/xloo-logo-bg.png) right bottom no-repeat;
-    background-size: contain;
-  }
-  .why-choose-us-item {
-    width: 100%;
-  }
-  .why-choose-us-item-title br {
-    display: none;
-  }
-  .why-choose-us-item:nth-child(7), .why-choose-us-item:nth-child(8){
-    margin-bottom: 40px;
-  }
- 
-  .block-steps-item-arrow-right,
-  .block-steps-item-arrow-left {
-    margin: 0;  
-  }
-  .block-arrow {
-    display: none;
-  }
-  .block-steps-text {
-    font-size: 20px;
-  }
-.border-radius-right, .border-radius-left {
-  border-radius: 0;
-}
-.block-steps-bottom-part {
-  flex-direction: column-reverse;
-  width: 100%;
-}
-.block-steps-item-arrow-down {
-  margin-bottom: 0;
-}
-.block-steps-item {
-  position: relative;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: -1px;
-  box-shadow: none;
-  margin-bottom: 20px;
-}
-.block-steps-bottom-part .block-steps-item:first-child {
-  margin-bottom: 0;
-}
-.block-steps-item:not(:first-child):before {
-  content: '';
-  position: absolute;
-  border: 10px solid transparent;
-  bottom: -21px;
-  border-top: 10px solid rgba(255, 255, 255, 0.3);
-}
-.block-steps-top-part .block-steps-item:first-child:before {
-  content: '';
-  position: absolute;
-  border: 10px solid transparent;
-  bottom: -21px;
-  border-top: 10px solid #93CB40;
-}
-.block-steps-top-part .block-steps-item:first-child {
-  border-radius: 8px 8px 0 0;
-  border-color: #93CB40;
-  z-index: 10;
-}
-.block-steps-bottom-part .block-steps-item:first-child {
-  border-radius: 0 0 8px 8px;
-}
-.block-steps-text br {
-  display: none;
-}
-.block-steps-text {
-  line-height: 22px;
-}
-.nav-xloo-tab {
-  justify-content: center;
-  border-radius: 30px;
-  flex-direction: column;
-}
-.nav-pills .xloo-nav-link {
-  font-size: 16px;
-}
-.block-steps-item {
-  height: inherit;
-}
-.block-steps-number {
-  font-size: 34px;
-}
-#pp-nav.right {
-  right: -7px;
-}
-.block-icon-development-item {
-  width: 35%;
-  margin: 30px 10px;
-}
-  .footer-contact-info {
-  margin-bottom: 40px;
-  }
-  .fp-tableCell {
-    height: auto !important;
-  }
-  .fp-section {
-    padding-top: 0 !important;  
-  }
-}
+    .img-result-container,
+    .img-solution-container {
+        display: none;
+    }
 
+    .xloo-block-cta.xloo-block {
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        min-height: 100vh;
+        height: auto;
+    }
+    .block-arrow.block-arrow-left {
+        display: none;
+    }
+    .block-description-xloo {
+        font-size: 28px;
+        line-height: 48px;
+    }
+    .nav-xloo-link-btn {
+        font-size: 21px;
+    }
+    .section-cta:before {
+        background: url(../images/xloo-logo-bg.png) right bottom no-repeat;
+        background-size: contain;
+    }
+    .why-choose-us-item {
+        width: 100%;
+    }
+    .why-choose-us-item-title br {
+        display: none;
+    }
+    .why-choose-us-item:nth-child(7),
+    .why-choose-us-item:nth-child(8) {
+        margin-bottom: 40px;
+    }
+
+    .block-steps-item-arrow-right,
+    .block-steps-item-arrow-left {
+        margin: 0;
+    }
+    .block-arrow {
+        display: none;
+    }
+    .block-steps-text {
+        font-size: 20px;
+    }
+    .border-radius-right,
+    .border-radius-left {
+        border-radius: 0;
+    }
+    .block-steps-bottom-part {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .block-steps-item-arrow-down {
+        margin-bottom: 0;
+    }
+    .block-steps-item {
+        position: relative;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: -1px;
+        box-shadow: none;
+        margin-bottom: 20px;
+    }
+    .block-steps-bottom-part .block-steps-item:first-child {
+        margin-bottom: 0;
+    }
+    .block-steps-item:not(:first-child):before {
+        content: "";
+        position: absolute;
+        border: 10px solid transparent;
+        bottom: -21px;
+        border-top: 10px solid rgba(255, 255, 255, 0.3);
+    }
+    .block-steps-top-part .block-steps-item:first-child:before {
+        content: "";
+        position: absolute;
+        border: 10px solid transparent;
+        bottom: -21px;
+        border-top: 10px solid #93cb40;
+    }
+    .block-steps-top-part .block-steps-item:first-child {
+        border-radius: 8px 8px 0 0;
+        border-color: #93cb40;
+        z-index: 10;
+    }
+    .block-steps-bottom-part .block-steps-item:first-child {
+        border-radius: 0 0 8px 8px;
+    }
+    .block-steps-text br {
+        display: none;
+    }
+    .block-steps-text {
+        line-height: 22px;
+    }
+    .nav-xloo-tab {
+        justify-content: center;
+        border-radius: 30px;
+        flex-direction: column;
+    }
+    .nav-pills .xloo-nav-link {
+        font-size: 16px;
+    }
+    .block-steps-item {
+        height: inherit;
+    }
+    .block-steps-number {
+        font-size: 34px;
+    }
+    #pp-nav.right {
+        right: -7px;
+    }
+    .block-icon-development-item {
+        width: 35%;
+        margin: 30px 10px;
+    }
+    .footer-contact-info {
+        margin-bottom: 40px;
+    }
+    .fp-tableCell {
+        height: auto !important;
+    }
+    .fp-section {
+        padding-top: 0 !important;
+    }
+
+    /* Our Company Style */
+    .xloo-block-secondary {
+        padding: 80px 0;
+    }
+    .our-company-team:before {
+        width: 427px;
+    }
+    .common-mission-block::after {
+        display: none;
+    }
+    .common-mission-block:before {
+        width: 600px;
+        background: #f4f5f8;
+    }
+    .section-our-company::before {
+        right: -28px;
+        transform: scale(0.7);
+    }
+    .cta-content-title {
+        line-height: 38px;
+        text-align: center;
+        margin-top: -7px;
+    }
+    .map-block:before {
+        left: -190px;
+    }
+    .wrap-map-block {
+        margin-top: -8px;
+    }
+    .map-item-canada {
+        left: 17px;
+    }
+    .map-item-usa {
+        left: 43px;
+    }
+    .map-item-europe {
+        left: 244px;
+    }
+    .map-item-sa {
+        left: 235px;
+    }
+    .map-item-asia {
+        left: 383px;
+    }
+    .xloo-in-numbers-item {
+        width: 250px;
+    }
+    .cta-block-get-in-touch:before {
+        left: -260px;
+    }
+    .footer-xloo-social {
+        width: inherit;
+    }
+    .footer-contact-info-social {
+        padding: 0;
+    }
+    /* Our Company Style END*/
+}
 
 @media (max-width: 576px) {
-  .block-icon-development-item {
-    width: 100%;
-  }
-  .footer-contact-info {
-    margin-bottom: 60px;
+    .case-items-container {
+        align-items: center;
+        justify-content: center;
     }
-  .footer-xloo-social {
-    text-align: center;
-  }
-  .footer-contact-info > div {
-    width: 100%;
-  }
-  .footer-xloo-social-list {
-    justify-content: center;
-  }
-  .block-description-xloo {
-    font-size: 24px;
-    line-height: 40px;
-  }
-  .block-description-xloo br {
-    display: none;
-  }
-  .footer-nav {
-    flex-wrap: wrap;
-    height: inherit;
-    flex-direction: column;
-  }
-  .footer-contact-info-phone {
-    margin-right: 0;
-  }
- .footer-contact-info {
-   flex-wrap: wrap;
- }
- .footer-contact-info-phone {
-   text-align: center;
-   margin-bottom: 30px;
- }
- .footer-contact-info-social {
-   text-align: center;
- }
- .xloo-close-modal {
-   right: 10px;
-   top: 10px;
- }
- .title-xloo-form h3 {
-   font-size: 21px;
- }
- .title-xloo-form p {
-   font-size: 14px;
- }
- .title-xloo-form {
-   margin-bottom: 0;
- }
- .wrap-form-btn {
-  margin: 10px 0 0;
-  text-align: center;
-}
-.xloo-features-content-title {
-  font-size: 21px;
-  text-align: center;
-}
-.xloo-features-content-title br {
-  display: none;
-}
-.xloo-features-item {
-  flex-wrap: wrap;
-}
-.xloo-features-content {
-  margin-left: 0;
-}
-.xloo-features-img {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 20px;
-}
-.xloo-title-block {
-  text-align: center;
-}
-.block-middle .xloo-secondary-text {
-  text-align: center;
-}
-.block-description-xloo {
-  text-align: center;
-}
-.block-bottom {
-  width: 100%;
-  text-align: center;
-}
-.why-choose-us-item-title {
-  justify-content: center;
-}
+    .case-item {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .case-item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .block-icon-development-item {
+        width: 100%;
+    }
+    .footer-contact-info {
+        margin-bottom: 60px;
+    }
+    .footer-xloo-social {
+        text-align: center;
+    }
+    .footer-contact-info > div {
+        width: 100%;
+    }
+    .footer-xloo-social-list {
+        justify-content: center;
+    }
+    .block-description-xloo {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .block-description-xloo br {
+        display: none;
+    }
+    .footer-nav {
+        flex-wrap: wrap;
+        height: inherit;
+        flex-direction: column;
+    }
+    .footer-contact-info-phone {
+        margin-right: 0;
+    }
+    .footer-contact-info {
+        flex-wrap: wrap;
+    }
+    .footer-contact-info-phone {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-contact-info-social {
+        text-align: center;
+    }
+    .xloo-close-modal {
+        right: 10px;
+        top: 10px;
+    }
+    .title-xloo-form h3 {
+        font-size: 21px;
+    }
+    .title-xloo-form p {
+        font-size: 14px;
+    }
+    .title-xloo-form {
+        margin-bottom: 0;
+    }
+    .wrap-form-btn {
+        margin: 10px 0 0;
+        text-align: center;
+    }
+    .xloo-features-content-title {
+        font-size: 21px;
+        text-align: center;
+    }
+    .xloo-features-content-title br {
+        display: none;
+    }
+    .xloo-features-item {
+        flex-wrap: wrap;
+    }
+    .xloo-features-content {
+        margin-left: 0;
+    }
+    .xloo-features-img {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .xloo-title-block {
+        text-align: center;
+    }
+    .block-middle .xloo-secondary-text {
+        text-align: center;
+    }
+    .block-description-xloo {
+        text-align: center;
+    }
+    .block-bottom {
+        width: 100%;
+        text-align: center;
+    }
+    .why-choose-us-item-title {
+        justify-content: center;
+    }
+    /* Our Page Style*/
+    .xloo-title-dark-text {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .common-mission-block-content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .common-mission-block-content br {
+        display: none;
+    }
+    .common-mission-block::after,
+    .common-mission-block::before {
+        display: none;
+    }
+    .our-company-team {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our-company-team:before {
+        display: none;
+    }
+    .our-company-team-item:before,
+    .our-company-team-item:after {
+        display: none;
+    }
+    .our-company-team li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .common-mission-block {
+        padding: 25px;
+    }
+    .our-company-team-item {
+        width: 140px;
+    }
+    .title-accordion-item .btn {
+        text-align: left;
+        font-size: 16px;
+    }
+    .title-accordion-item .btn br {
+        display: block;
+    }
+    .cta-content-title {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .cta-content-subtitle {
+        text-align: center;
+        font-size: 18px;
+    }
+    .cta-content-believe:before {
+        right: -144px;
+        bottom: -133px;
+        transform: scale(0.8);
+    }
+    .xloo-in-numbers-item {
+        width: 100%;
+        text-align: center;
+    }
+    .map-block:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url(/wp-content/themes/xloo/images/our-company/map-xs.png) center center no-repeat;
+        transform: scale(1);
+        left: 0;
+        top: 20px;
+        background-size: contain;
+    }
+    .map-block {
+        height: 280px;
+    }
+    .map-item {
+        display: none;
+    }
+    .list-service-item {
+        justify-content: center;
+    }
+    .footer-contact-services {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /* Our Page Style End*/
+    .wrapper-nav-xloo {
+        width: 30px;
+    }
+    .nav-toolbar {
+        justify-content: space-between;
+    }
 }

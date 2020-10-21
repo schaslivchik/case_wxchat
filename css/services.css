@@ -1,0 +1,80 @@
+.title-page {
+  margin-top: 136px;
+}
+.title-page .case-block-title {
+  margin-bottom: 45px;
+}
+.service-content-number {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 34px;
+  line-height: 26px;
+}
+.container-service {
+  padding: 70px 0;
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+.container-service--grey {
+  background-color: #f4f5f8;
+}
+.services-title-content {
+  margin-bottom: 34px;
+}
+.service-content-text p {
+  margin-bottom: 40px;
+}
+.container-service--grey .service-content {
+  padding-left: 30px;
+}
+.service-img, .service-img img {
+  height: 100%;
+}
+.section-carousel-service {
+ margin-bottom: 140px;
+}
+.container-service-last-block {
+  margin-bottom: 0;
+}
+.wrap-service-bock {
+  margin-bottom: 120px;
+}
+.container-contract {
+  background: #2C3544;
+  padding: 30px;
+  border-radius: 4px;
+}
+.title-contract-block {
+  display: flex;
+  align-items: center;
+}
+.title-contract-block-txt {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+.title-contract-block {
+  margin-bottom: 20px;
+}
+.container-contract {
+  height: 100%;
+}
+.types-cta-text {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 34px;
+}
+.contract-fixed-price {
+  position: relative;
+}
+.contract-fixed-price::before {
+  content: '';
+  background: url(../images/dot_contract_type.svg)center center no-repeat;
+  height: 100%;
+  position: absolute;
+  right: -35px;
+  width: 28px;
+  top: 0;
+  bottom: 0;
+}
