@@ -5,9 +5,13 @@
   margin-bottom: 0px;
 }
 .service-content-number {
-  font-size: 62px;
+  font-size: 56px;
   font-weight: 800;
   opacity: 0.1;
+  line-height: 56px;
+}
+.services-title-content {
+  margin-bottom: 0;
 }
 .container-service {
   padding: 120px 0;
@@ -84,7 +88,7 @@
 .wrap-title-service-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 20px;
 }
 .accordion-text {
